@@ -1,0 +1,74 @@
+ {% load static %}
+<!doctype html>
+<html>
+
+<head>
+    <title>PathLab:Home</title>
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <style>
+        input[type=text] {
+            margin: 5px;
+            width: 400px;
+            padding: 4px;
+        }
+        
+        input[type=email] {
+            margin: 5px;
+            width: 400px;
+            padding: 4px;
+        }
+        
+        input[type=number] {
+            margin: 5px;
+            width: 400px;
+            padding: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="pad12"> <img src="/static/img/lab.png" class="w75"> <span class="hd">Path Lab Ltd.</span>
+    </div>
+    <div class="nav bg8">
+        <a>Register or login here</a>
+    </div>
+    <div class="pad ">
+        <h2 class="blubrdr ">Register Here :</h2>
+
+        <form action='homes/' method='post'>
+
+            <label>Enter Name:<input type='text' name='Name' required='required' placeholder='Enter name'></label><br>
+            <label>Enter Age:<input type='number' name='age' required='required' placeholder='Enter age'></label><br>
+            <label>Enter Contact:<input type='number' name='contact' required='required' placeholder='Enter contact no'></label><br>
+            <label>Enter Gender:<input type='text' name='gender' required='required' placeholder='Enter gender'></label><br>
+            <label>Enter Email:<input type='email' name='email' required='required' placeholder='Enter email'></label><br><br>
+
+            <input type='submit' class='btn'>
+        </form><br><br>
+
+        <h2 class="blubrdr">Login Here :</h2>
+        <form action='homel/' method='post'>
+
+            <label>Enter Name:<input type='text' name='Name' required='required' placeholder='Enter name'></label><br>
+            <label>Enter Contact:<input type='number' name='contact' required='required' placeholder='Enter contact no'></label><br><br>
+            <input type='submit' class='btn'>
+
+
+        </form>
+    </div>
+    <br><br>
+
+
+
+    <div class="ftrnav bg8 pad nav">
+
+        <h3 class="blubrdr">Contact Us</h3>
+        <b>Sagar Varshney</b><br><br> 12th Floor, Tower B, SAS Tower,<br> Medicity, Sector-38, Noida-122001.
+        <br> Fax : +91 124 4234468
+    </div>
+
+
+    <body>
+    </body>
+
+</html>

@@ -1,0 +1,17 @@
+body{background-color:#eee}
+  a {      margin: 25px; font-size: 24px;    text-decoration: none; color: cornsilk; }
+	.bg{background-color:#F3F3F3}
+	.nav {  padding: 20px;background-color: #666558;}
+
+a:hover{
+  font-weight: 700  }
+  .pad{padding: 35px;}
+  .border{border: #65656f 2px dashed;}
+  .btn{height: 32px;
+    color: black;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 0 16px;
+	cursor:pointer}
+	.left{    padding: 5px 0 0 50px;
+}
